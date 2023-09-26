@@ -1,2 +1,2 @@
 # Mospending
-It a landing page created for mospending
+It is a landing page created for mospending
