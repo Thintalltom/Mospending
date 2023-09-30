@@ -1,0 +1,19 @@
+.breeze
+{
+    word-wrap: break-word;
+    font-size: 80px !important;
+    font-stretch: extra-expanded !important;
+    font-weight: 600 !important;
+}
+.inputSlate
+{
+    background-color: bisque;
+    font-size: x-small;
+  
+}
+.btnStyle
+{
+    background-color: orange;
+    width: auto;
+    padding: 10px;
+}

@@ -2,7 +2,7 @@ import React from 'react'
 import './Navbar.css'
 const Navbar = () => {
   return (
-    <div className='bg-indigo-600 w-full text-white '>
+    <div className='bg-[#3734A9] w-full text-white '>
         <div className='flex  justify-between p-4'>
             <p> Mospending</p> 
 
