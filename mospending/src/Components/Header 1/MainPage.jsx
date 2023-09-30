@@ -12,7 +12,7 @@ const MainPage = () => {
         <div className="lg:text-3xl sm:text-sm breeze mt-[90px]  p-[10px] flex sm:flex-col lg:flex-row justify-between">
           <img src={oval} className=" flex-none lg:block lg:w-[200px] sm:hidden md:hidden oval" />
           <div className="text-center bigText">
-            <p>Our fintech app makes 
+            <p>Our fintech app makes  managing
             your transaction a 
              breeze.</p>
           </div>
@@ -39,8 +39,8 @@ const MainPage = () => {
       <div className="flex ">
         <img src={bluedot}/>
       </div>
-      <div className="flex items-center justify-center mt-[-100px] ">
-      <img src={dashboard} className='w-[50%]'/>
+      <div className="flex items-center justify-center mt-[-100px] bigImage ">
+      <img src={dashboard} className='w-[50%] bigImage2'/>
       </div>
     </div>
   );

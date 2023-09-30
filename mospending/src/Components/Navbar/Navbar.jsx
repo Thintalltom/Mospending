@@ -42,9 +42,9 @@ const Navbar = () => {
         onClick={handleClick}
       >
         {open ? (
-          <CiMenuFries className="text-cyan-800 text-3xl font-extrabold" />
+          <CiMenuFries className="text-slate-800 text-3xl font-extrabold " />
         ) : (
-          <CiCircleRemove className="text-cyan-800 text-3xl font-extrabold" />
+          <CiCircleRemove className="text-slate-800 text-3xl font-extrabold" />
         )}
       </div>
       </div>
@@ -54,23 +54,23 @@ const Navbar = () => {
         className={
           open
             ? "hidden"
-            : `flex-col flex text-center justify-center items-center gap-9 p-4 xs:w-full xs:h-screen 2xl:hidden lg:hidden   xs:h-screen md:h-screen bg-slate-200 absolute top-0 left-0`
+            : `flex-col flex text-center justify-center items-center gap-9 p-4 xs:w-full xs:h-[50%] 2xl:hidden lg:hidden mt-[50px]   xs:h-screen md:h-screen bg-[#3734A9] absolute top-0 left-0`
         }
       >
-        <li className="list-none px-4 cursor-pointer hover:text-lime-500  text-sky-700">
-          Work
+        <li className="list-none px-4 cursor-pointer hover:text-lime-500  text-white">
+          Home
         </li>
 
-        <li className="list-none px-4 cursor-pointer hover:text-lime-500 text-sky-700">
-          Experience
+        <li className="list-none px-4 cursor-pointer hover:text-lime-500 text-white">
+          Product
         </li>
 
-        <li className="list-none px-4 cursor-pointer hover:text-lime-500  text-sky-700">
-          About
+        <li className="list-none px-4 cursor-pointer hover:text-lime-500  text-white">
+         Company
         </li>
 
-        <li className="list-none px-4 cursor-pointer hover:text-lime-500  text-sky-700">
-          Contact
+        <li className="list-none px-4 cursor-pointer hover:text-lime-500  text-white">
+         Utility
         </li>
       </div>
     </div>
