@@ -7,8 +7,9 @@
 }
 .inputSlate
 {
-    background-color: bisque;
+    background-color: rgba(248, 247, 246, 0.205);
     font-size: x-small;
+    width: 300px;
   
 }
 .btnStyle
@@ -16,4 +17,36 @@
     background-color: orange;
     width: auto;
     padding: 10px;
+}
+.inputText{
+    width: 200px;
+    height: 20px;
+}
+.bigText{
+    line-height: 1.2;
+    word-spacing: 10px;
+}
+
+@media only screen and (max-width:600px)
+{
+    .oval{
+        display: none;
+    }
+    
+    .orange{
+        display: none;
+    }
+    .bigText{
+        font-size: 30px !important;
+        margin-top: -19px;
+        word-spacing:0px;
+    }
+    .smallText
+    {
+        line-height: 1.2;
+        font-size: xx-small;
+        word-break: break-all;
+    }
+
+   
 }

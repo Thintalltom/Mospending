@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './Components/Navbar/Navbar'
 import MainPage from './Components/Header 1/MainPage'
+import MainPage2 from './Components/Main 2/mainPage2'
 function App() {
   
   return (
@@ -11,6 +12,7 @@ function App() {
    <div className=' w-full'>
      <Navbar />
      <MainPage />
+     <MainPage2 />
    </div>
     </>
   )
