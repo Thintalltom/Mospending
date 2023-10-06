@@ -31,8 +31,6 @@
   .oval {
     display: none;
   }
-
-
   .orange {
     display: none;
   }
@@ -90,21 +88,49 @@
   .seconFlex .secImage {
     width: 200px;
   }
-  .bolderText
+  .holder .bolderText
   {
       text-align: center;
-      font-size: smaller;
+      font-size: large;
      
   }
-  .smallerText
+  .holder .introduce{
+    margin-top: -10px;
+    color: black;
+  }
+  .holder .smallerText
   {
     font-size: x-small; 
     padding: 20px;
+    margin-top: -30px;
+    color: black;
 
   }
   .breaText
   {
       margin-top: -20px;
+  }
+  .flexSmall
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .flexSmall .flexX
+  {
+    
+    font-size: smaller;
+    padding: 30px;
+  }
+  .flexSmall .flexX .Xbold
+  {
+    font-size: large;
+    text-align: center;
+  }
+  .flexSmall .flexImg
+  {
+    width: 200px;
   }
  
 }
